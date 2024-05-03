@@ -1,6 +1,6 @@
 .scorekeeper{
     margin: auto;
-    width: 30%;
+    width: 40%;
     text-align: center;
     background-color: black;
     color: white;
@@ -9,12 +9,15 @@
 p{
     font-size: 1.5em;
 }
+input{
+    width: 30%;
+}
 button{
     background-color: #ffffff;
     color: black;
     padding: 5px;
     border-radius: 10px;
-    width: 15%;
+    width: 80px;
     border: 1px solid black;
 }
 button:hover{
