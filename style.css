@@ -1,0 +1,24 @@
+.scorekeeper{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+p{
+    font-size: 1.5em;
+}
+button{
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 15%;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
