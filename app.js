@@ -34,7 +34,7 @@ resetButton.addEventListener("click", function () {
   reset();
 });
 
-function reset(){
+function reset() {
   p1Score = 0;
   p2Score = 0;
   p1Display.textContent = 0;
@@ -42,7 +42,6 @@ function reset(){
   p1Display.style.color = "white";
   p2Display.style.color = "white";
   gameOver = false;
-
 }
 numInput.addEventListener("change", function () {
   winningScoreDisplay.textContent = numInput.value;
